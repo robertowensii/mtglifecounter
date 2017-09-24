@@ -1,3 +1,6 @@
-function helloWorld (){
-document.getElementById("player1").innerHTML = "hello world";
+function down (){
+    var x;
+    x = 20;
+    x --;
+    document.getElementById("p1life").innerHTML = x ;
 };
